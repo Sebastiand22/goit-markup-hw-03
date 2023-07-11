@@ -14,7 +14,6 @@
 body {
   font-family: var(--text-font-family);
   color: var(--text-color);
-  width: 100%;
   margin: 0 auto;
 }
 /* LOGO STYLES */
@@ -26,7 +25,7 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  margin-left: 50px;
+  margin-left: 5px;
 }
 .logo-studio {
   color: black;
@@ -104,8 +103,8 @@ h2 {
   box-sizing: border-box;
   background-color: #2f303a;
   width: 100%;
-  height: 600px;
   margin-bottom: 94px;
+  padding: 94px 0px 94px 0;
 }
 
 .request-button {
@@ -180,10 +179,6 @@ a:focus {
 }
 .button-style:focus {
   color: #0d1013;
-}
-
-.container {
-  width: 1600px;
 }
 
 .flex-button {
@@ -275,13 +270,6 @@ a:focus {
   color: #fff;
 }
 
-.footer-edit {
-  background-color: #2f303a;
-  width: 100%;
-  height: 251px;
-  flex-shrink: 0;
-}
-
 /* portfolio styles */
 
 .navigation {
@@ -321,6 +309,8 @@ a:focus {
   display: flex;
   box-sizing: content-box;
   flex-direction: column;
+  gap: 30px;
+  width: 100%;
 }
 
 .first-colum .second-colum .third-colum {
@@ -338,7 +328,6 @@ a:focus {
   display: flex;
   justify-content: center;
   align-items: center;
-  column-gap: 30px;
   flex-wrap: wrap;
   box-sizing: content-box;
   width: 1176px;
@@ -366,13 +355,37 @@ a:focus {
 .footer-color {
   background-color: #2f303a;
   width: 100%;
-  height: 200px;
+  height: 215px;
   flex-shrink: 0;
 }
+
+.footer-edit {
+  background-color: #2f303a;
+  width: 100%;
+  height: 251px;
+  flex-shrink: 0;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
 }
 ul {
   list-style: none;
+}
+
+.container {
+  width: 1600px;
+}
+
+.team-color {
+  background-color: #f5f4fa;
+  padding: 94px 0px 94px 0px;
+}
+.what-we-do {
+  padding: 94px 0px 94px 0px;
+}
+
+.footer-logo {
+  padding-left: 215px;
 }
