@@ -6,7 +6,7 @@
   box-sizing: border-box;
 }
 * {
-  margin: 0px;
+  margin: 0 auto;
   padding: 0px;
   box-sizing: border-box;
 }
@@ -15,6 +15,7 @@ body {
   font-family: var(--text-font-family);
   color: var(--text-color);
   width: 100%;
+  margin: 0 auto;
 }
 /* LOGO STYLES */
 .logo-web {
@@ -37,23 +38,28 @@ body {
   letter-spacing: 0.78px;
 }
 
-.logo-web2{color: #2196F3;
+.logo-web2 {
+  color: #2196f3;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.78px;}
-.logo-studio2{color: black;
+  letter-spacing: 0.78px;
+}
+.logo-studio2 {
+  color: black;
   font-family: Raleway;
   font-size: 26px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
-  letter-spacing: 0.78px;}
-
-  .logo2{margin-left:215px;
-  margin-top: 25px;}
+  letter-spacing: 0.78px;
+}
+.logo2 {
+  margin-left: 50px;
+  margin-top: 25px;
+}
 
 .footer-color {
   background: #2f303a;
@@ -85,7 +91,8 @@ h2 {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 1.08px;
-  margin-left: 215px;
+  margin-left: 0px;
+  margin-bottom: 25px;
 }
 .full-color-section {
   display: flex;
@@ -125,7 +132,6 @@ h2 {
   letter-spacing: 0.42px;
   text-transform: uppercase;
   display: flex;
-  width: 270px;
   flex-direction: column;
   flex-shrink: 0;
 }
@@ -191,27 +197,29 @@ a:focus {
   display: flex;
   margin-left: 215px;
   margin-top: 24px;
-  
 }
 
 .phone-flex {
   display: flex;
   margin-top: 30px;
+  justify-content: space-between;
+  margin-left: 500px;
 }
 .global-header {
   display: flex;
-  justify-content: space-between;
+  width: 100%;
 }
 
-.nav-flex ul {
+.nav-flex {
   display: flex;
   margin-top: 30px;
+  justify-content: space-between;
 }
 
 .middle-flex {
   display: flex;
-  justify-content: space-evenly;
-  width: 400px;
+  justify-content: space-between;
+  width: 300px;
 }
 /* main-flex */
 
@@ -224,14 +232,14 @@ a:focus {
 
 .boxes {
   display: flex;
-  justify-content: space-around;
-  margin-left: 215px;
+  justify-content: space-evenly;
+  margin-left: 0px;
 }
 
 .team {
   display: flex;
   justify-content: space-between;
-  margin-left: 215px;
+  margin-left: 0px;
 }
 
 .address {
@@ -254,7 +262,7 @@ a:focus {
   flex-shrink: 0;
 }
 .footer-link {
-  color: rgba(255, 255, 255, 0.60);
+  color: rgba(255, 255, 255, 0.6);
   font-family: Roboto;
   font-size: 14px;
   font-style: normal;
@@ -269,7 +277,7 @@ a:focus {
 
 .footer-edit {
   background-color: #2f303a;
-  width: 1600px;
+  width: 100%;
   height: 251px;
   flex-shrink: 0;
 }
@@ -309,47 +317,62 @@ a:focus {
   letter-spacing: 0.48px;
 }
 
-
-.image-container{display: flex;
+.image-container {
+  display: flex;
   box-sizing: content-box;
-  flex-direction: column;}
+  flex-direction: column;
+}
 
-  .first-colum .second-colum .third-colum{
-    box-sizing: content-box;
-    width: 370px;
-    height: 294px;} 
+.first-colum .second-colum .third-colum {
+  box-sizing: content-box;
+  width: 370px;
+  height: 294px;
+}
 
-    .more-info{display: flex;
-      flex-direction: column;}
+.more-info {
+  display: flex;
+  flex-direction: column;
+}
 
-      .image-positions{  display: flex;
-        justify-content: center;
-        align-items: center;
-        column-gap: 30px;
-        flex-wrap: wrap;
-        box-sizing: content-box;
-        width: 1176px;
-        margin-top: 50px;}
-  
-        .modify-title {display: flex;
-          box-sizing: content-box;
-          font-size: 18px;
-          margin-top: 20px;
-          line-height: 36px;
-          letter-spacing: 1.08px;
-          margin-left: 24px;}
+.image-positions {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 30px;
+  flex-wrap: wrap;
+  box-sizing: content-box;
+  width: 1176px;
+  margin-top: 50px;
+}
 
-          .modify-content{display: flex;
-            box-sizing: content-box;
-            text-align: center;
-            margin-left: 24px;
-            line-height: 30px;
-        }
+.modify-title {
+  display: flex;
+  box-sizing: content-box;
+  font-size: 18px;
+  margin-top: 20px;
+  line-height: 36px;
+  letter-spacing: 1.08px;
+  margin-left: 24px;
+}
 
-.footer-color{ background-color: #2f303a;
-  width: 1600px;
+.modify-content {
+  display: flex;
+  box-sizing: content-box;
+  text-align: center;
+  margin-left: 24px;
+  line-height: 30px;
+}
+
+.footer-color {
+  background-color: #2f303a;
+  width: 100%;
   height: 200px;
   flex-shrink: 0;
 }
-hr{margin-top:20px;
-margin-bottom:20px;}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+ul {
+  list-style: none;
+}
