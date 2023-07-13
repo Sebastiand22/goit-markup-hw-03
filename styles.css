@@ -201,7 +201,6 @@ a:focus {
   margin-left: 500px;
 }
 .global-header {
-  display: flex;
   width: 100%;
 }
 
@@ -386,6 +385,3 @@ ul {
   padding: 94px 0px 94px 0px;
 }
 
-.footer-logo {
-  padding-left: 215px;
-}

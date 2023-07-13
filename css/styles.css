@@ -25,7 +25,6 @@ body {
   font-weight: 700;
   line-height: normal;
   letter-spacing: 0.78px;
-  margin-left: 5px;
 }
 .logo-studio {
   color: black;
@@ -56,14 +55,12 @@ body {
   letter-spacing: 0.78px;
 }
 .logo2 {
-  margin-left: 50px;
   margin-top: 25px;
 }
-
 .footer-color {
   background: #2f303a;
-  width: 200px;
 }
+
 h1 {
   color: #fff;
   text-align: center;
@@ -188,23 +185,9 @@ a:focus {
 
 /* header flexing */
 
-.logo-flex {
-  display: flex;
-  margin-left: 215px;
-  margin-top: 24px;
-}
-
-.phone-flex {
-  display: flex;
-  margin-top: 30px;
-  justify-content: space-between;
-  margin-left: 500px;
-}
 .global-header {
-  display: flex;
   width: 100%;
 }
-
 .nav-flex {
   display: flex;
   margin-top: 30px;
@@ -216,6 +199,7 @@ a:focus {
   justify-content: space-between;
   width: 300px;
 }
+
 /* main-flex */
 
 .quality {
@@ -235,19 +219,6 @@ a:focus {
   display: flex;
   justify-content: space-between;
   margin-left: 0px;
-}
-
-.address {
-  display: flex;
-  width: 231px;
-  height: 16px;
-  flex-direction: column;
-  flex-shrink: 0;
-  color: #fff;
-  font-family: Roboto;
-  font-size: 14px;
-  font-weight: 400;
-  margin-left: 20px;
 }
 
 .address1 {
@@ -341,7 +312,7 @@ a:focus {
   margin-top: 20px;
   line-height: 36px;
   letter-spacing: 1.08px;
-  margin-left: 24px;
+  margin-left: 25px;
 }
 
 .modify-content {
@@ -377,6 +348,13 @@ ul {
 .container {
   width: 1600px;
 }
+.move-the-content {
+  display: flex;
+  justify-content: space-between;
+}
+.phone-flex {
+  margin-top: 32px;
+}
 
 .team-color {
   background-color: #f5f4fa;
@@ -386,6 +364,14 @@ ul {
   padding: 94px 0px 94px 0px;
 }
 
-.footer-logo {
-  padding-left: 215px;
+.move-the-content2 {
+  display: flex;
+  flex-direction: column;
+  padding-right: 1178px;
+  margin-left: 215px;
+  padding-top: 60px;
+}
+
+.address {
+  color: #fff;
 }
